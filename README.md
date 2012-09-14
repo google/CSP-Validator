@@ -3,7 +3,9 @@
 ![image](http://aerotwist.com/cspvalidator/screenshot.png)
 
 This is a [Sublime Text 2](http://www.sublimetext.com/) plugin that checks your
-JavaScript, HTML and CSS for potential [Content Security Policy](https://developer.chrome.com/extensions/contentSecurityPolicy.html) violations.
+JavaScript, HTML and CSS for potential [Content Security Policy](https://developer.chrome.com/extensions/contentSecurityPolicy.html) issues.
+
+*If you're new to Content Security Policy there's [an HTML5 Rocks article for that](http://www.html5rocks.com/en/tutorials/security/content-security-policy/)!*
 
 Right now the plugin checks for:
 
