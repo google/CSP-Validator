@@ -1,0 +1,23 @@
+/*
+  CSP Validator settings
+ */
+{
+  /*
+   Sets whether the plugin runs:
+
+     0 = Validation disabled
+     1 = Validation enabled [load, save, activation]
+
+  */
+  "csp_enabled": 1,
+
+  /*
+   Sets whether Chrome Apps specific validation is required. This
+   mainly affects the loading in of remote assets, which is disallowed
+
+     0 = Chrome Apps-specific validations disabled
+     1 = Chrome Apps-specific validations enabled [load, save, activation]
+
+  */
+  "csp_chromeapps": 1
+}

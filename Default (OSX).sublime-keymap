@@ -1,0 +1,6 @@
+[
+  {
+    "keys": ["ctrl+alt+shift+c"],
+    "command": "content_security_policy_toggle"
+  }
+]
