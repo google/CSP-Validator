@@ -1,6 +1,6 @@
 # CSP Validator
 
-![image](http://aerotwist.com/cspshadervalidator/screenshot.png)
+![image](http://aerotwist.com/cspvalidator/screenshot.png)
 
 This is a [Sublime Text 2](http://www.sublimetext.com/) plugin that checks your
 JavaScript, HTML and CSS for potential [Content Security Policy](https://developer.chrome.com/extensions/contentSecurityPolicy.html) violations.
