@@ -82,6 +82,13 @@ class CSPValidator():
             "url\(\"?(?:https?:)?//[^\)]*\)",
             "External resources are not allowed",
             "csp_chromeapps"
+        ),
+
+        # Matches hrefs with a javascript: url
+        CSPRule(
+            "<.*?href.*?javascript:.*?>",
+            "Inline JavaScript calls are not allowed",
+            "csp_chromeapps"
         )
     ]
 
