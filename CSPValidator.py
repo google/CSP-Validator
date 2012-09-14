@@ -79,7 +79,7 @@ class CSPValidator():
 
         # Matches external resources in CSS
         CSPRule(
-            "url\(\"?http[^\)]*\)",
+            "url\(\"?(?:https?:)?//[^\)]*\)",
             "External resources are not allowed",
             "csp_chromeapps"
         )
