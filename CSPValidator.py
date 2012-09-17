@@ -32,7 +32,7 @@ class CSPValidator():
 
         # Matches on src attributes with an http[s] protocol
         CSPRule(
-            "<(img|script).+?src\s?=\s?[\"']+http[^\"\']*[\"\']?",
+            "<(img|script).*?\ssrc\s?=\s?[\"']+http[^\"\']*[\"\']?",
             "External resources are not allowed",
             "csp_chromeapps"
         ),
